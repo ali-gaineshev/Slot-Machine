@@ -18,6 +18,7 @@ Future work:
 * Change visuals of the project
 * Change mysql connections so it works even if mysql is not present in the system
 * Guest button if above future work can't be implemented 
+
 Bugs:
 * Not found yet except for some crashes with no explanation in early stages of the game but didn't happen after
 
