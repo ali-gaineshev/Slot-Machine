@@ -1,4 +1,4 @@
-# Slot Machine Game v1.0
+# Slot Machine Game v1.0 C# (Windows Forms) and MySQL project
 
 Features:
 * Users login in and signing up to create new users and play the game
