@@ -1,5 +1,8 @@
 # Slot Machine Game v1.0 C# (Windows Forms) and MySQL project
 
+![Capture](https://user-images.githubusercontent.com/117496038/213897977-d48e0d7f-3b1d-4beb-9ab1-52e2a0390b4b.png)
+![lgin](https://user-images.githubusercontent.com/117496038/213897949-7bc2458e-f912-429c-b50b-70ec024d457f.PNG)
+
 Features:
 * Users login in and signing up to create new users and play the game
 * Betting system with different buttons
