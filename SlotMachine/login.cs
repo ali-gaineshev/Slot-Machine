@@ -11,13 +11,15 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MaterialSkin;
 using MySql.Data.MySqlClient;
+using System.Configuration;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
+using System.Management.Instrumentation;
 
 namespace SlotMachine
 {
     public partial class login : MaterialSkin.Controls.MaterialForm
     {
-        private string connectionString = "Server=127.0.0.1;Port=3306;Database=slot_machine;Uid=user;Pwd=password;";
+        private string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["Myconnection"].ToString();
         private MySqlConnection connection;
         private string username;
         private int money;
@@ -88,6 +90,7 @@ namespace SlotMachine
                 cmd.Parameters.AddWithValue("@username", user);
                 cmd.ExecuteNonQuery();
             }
+            connection.Close();
             //For some reason the form doesn't fully close unless some of these commands are here
             this.Close();
             System.Windows.Forms.Application.Exit();
