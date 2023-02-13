@@ -17,7 +17,7 @@ Future work:
 * Adding spinning sound that is saved in the files for now but i couldn't get it to work
 * Adding more security to the project, like mysql connection
 * adding personalized Users input like profile picture
-* use Docker so it runs on different machines
+* Make it available on different machines
 * Change visuals of the project
 * Change mysql connections so it works even if mysql is not present in the system
 * Guest button if above future work can't be implemented 
